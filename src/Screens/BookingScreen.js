@@ -46,7 +46,7 @@ const BookingScreen = () => {
 
     try {
       const response = await fetch(
-        "http://localhost:5000/api/rooms/getroombyid",
+        "https://mern-project-nine-sigma.vercel.app//api/rooms/getroombyid",
         {
           method: "POST",
           headers: {
@@ -86,7 +86,7 @@ const BookingScreen = () => {
     try {
       setLoading(true);
       const response = await fetch(
-        "http://localhost:5000/api/booking/bookroom",
+        "https://mern-project-nine-sigma.vercel.app/api/booking/bookroom",
         {
           method: "POST",
           headers: { "Content-Type": "application/json" },

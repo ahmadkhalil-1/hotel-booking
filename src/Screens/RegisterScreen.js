@@ -20,7 +20,7 @@ const RegisterScreen = () => {
       };
       try {
         const response = await fetch(
-          "http://localhost:5000/api/users/register",
+          "https://mern-project-nine-sigma.vercel.app/api/users/register",
           {
             method: "POST",
             headers: { "Content-Type": "application/json" },
