@@ -15,7 +15,7 @@ const LoginScreen = () => {
       password,
     };
     try {
-      const response = await fetch("https://mern-project-nine-sigma.vercel.app/api/users/login", {
+      const response = await fetch("https://mern-api-neon.vercel.app/api/users/login", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(user),

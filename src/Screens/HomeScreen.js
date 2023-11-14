@@ -48,7 +48,7 @@ const HomeScreen = () => {
     try {
       setLoading(true);
       const response = await fetch(
-        "http://localhost:5000/api/rooms/getallrooms"
+        "https://mern-api-neon.vercel.app/api/rooms/getallrooms"
       );
       const data = await response.json();
       setRooms(data);

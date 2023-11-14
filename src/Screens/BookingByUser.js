@@ -10,7 +10,7 @@ const BookingByUser = () => {
     setLoading(true);
     try {
       const response = await fetch(
-        "https://mern-project-nine-sigma.vercel.app//api/booking/bookbyuser",
+        "https://mern-api-neon.vercel.app/api/booking/bookbyuser",
         {
           method: "POST",
           headers: { "Content-Type": "application/json" },
